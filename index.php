@@ -161,7 +161,7 @@ $totalSeminar = mysqli_num_rows($query);
 
                 <i class="bi bi-mortarboard-fill"></i>
 
-                CMS Seminar
+                Seminar IT
 
             </a>
 
@@ -207,7 +207,7 @@ $totalSeminar = mysqli_num_rows($query);
 
                     <p class="mt-3">
 
-                        Platform seminar yang dikelola oleh berbagai panitia mahasiswa Informatika.
+                        Platform seminar yang dikelola oleh berbagai panitia mahasiswa Informatika di seluruh kampus Yogyakarta.
                         Temukan seminar, workshop, dan pelatihan yang sesuai dengan minatmu.
 
                     </p>
@@ -224,7 +224,7 @@ $totalSeminar = mysqli_num_rows($query);
 
                 <div class="col-lg-5 text-center">
 
-                    <i class="bi bi-laptop display-1"
+                    <i class="bi-code-slash display-1"
                         style="font-size:180px;opacity:.25;"></i>
 
                 </div>
@@ -512,14 +512,14 @@ $totalSeminar = mysqli_num_rows($query);
 
                     <h5>
 
-                        CMS Seminar Informatika
+                        CMS Seminar Informatika Jogjakarta
 
                     </h5>
 
                     <p>
 
                         Platform pendaftaran seminar yang memudahkan mahasiswa
-                        menemukan berbagai seminar Informatika.
+                        menemukan berbagai seminar Informatika di Kampus di Yogyakarta.
 
                     </p>
 
@@ -547,7 +547,7 @@ $totalSeminar = mysqli_num_rows($query);
 
                     <small>
 
-                        © 2026 CMS Seminar Informatika
+                        © 2026 Irvan. All rights reserved.
 
                     </small>
 

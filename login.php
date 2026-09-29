@@ -95,7 +95,7 @@ if (isset($_SESSION['login'])) {
 
             height: 48px;
 
-            border-radius: 10px;
+            border-radius: 0 10px 10px 0;
 
         }
 
@@ -123,7 +123,13 @@ if (isset($_SESSION['login'])) {
 
         }
 
+        /* Penyesuaian Responsif untuk HP / Layar Kecil */
         @media(max-width:768px) {
+
+            .login-box {
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
 
             .left-side {
 
@@ -134,6 +140,10 @@ if (isset($_SESSION['login'])) {
             .right-side {
 
                 border-radius: 20px;
+
+                padding: 30px 20px;
+
+                min-height: auto;
 
             }
 
@@ -146,7 +156,7 @@ if (isset($_SESSION['login'])) {
 
     <div class="container login-box">
 
-        <div class="row justify-content-center w-100">
+        <div class="row justify-content-center w-100 mx-auto">
 
             <div class="col-lg-10">
 
@@ -167,7 +177,7 @@ if (isset($_SESSION['login'])) {
 
                                 <p class="mt-3">
 
-                                    Platform Seminar Informatika yang memudahkan mahasiswa mencari seminar, workshop, dan pelatihan dari berbagai panitia.
+                                    Platform Seminar Informatika yang memudahkan mahasiswa mencari seminar, workshop, dan pelatihan dari berbagai kampus di Yogyakarta.
 
                                 </p>
 
