@@ -46,7 +46,10 @@ $totalSeminar = mysqli_num_rows($query);
 
         .navbar {
             box-shadow: 0 2px 12px rgba(0, 0, 0, .12);
+
         }
+
+
 
         .hero {
 
@@ -145,6 +148,52 @@ $totalSeminar = mysqli_num_rows($query);
             margin-top: 60px;
 
         }
+
+        footer {
+            background: linear-gradient(135deg, #0d6efd, #0b5ed7) !important;
+            /* Warna biru navbar dengan gradasi halus */
+            color: rgba(255, 255, 255, 0.85) !important;
+            margin-top: 80px;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        footer h5 {
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        footer p,
+        footer small {
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        /* Kotak Ikon Kontak Kaca (Glassmorphism) */
+        footer .footer-icon {
+            width: 36px;
+            height: 36px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            margin-right: 10px;
+        }
+
+        footer hr {
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1030;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
+        }
     </style>
 
 </head>
@@ -153,7 +202,7 @@ $totalSeminar = mysqli_num_rows($query);
 
     <!-- NAVBAR -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
 
         <div class="container">
 
@@ -502,63 +551,56 @@ $totalSeminar = mysqli_num_rows($query);
 
     </div>
 
-    <footer class="bg-primary text-white py-4">
+    <!-- FOOTER BIRU ELEGAN -->
+    <footer class="py-5">
 
         <div class="container">
 
-            <div class="row">
+            <div class="row g-4 justify-content-between">
 
-                <div class="col-md-6">
+                <!-- Brand & Deskripsi -->
+                <div class="col-lg-5 col-md-6">
 
-                    <h5>
+                    <a class="text-decoration-none text-white fw-bold fs-5 d-flex align-items-center gap-2 mb-3" href="#">
+                        <i class="bi bi-mortarboard-fill"></i>
+                        <span>Seminar<span class="text-warning">IT</span></span>
+                    </a>
 
-                        CMS Seminar Informatika Jogjakarta
-
-                    </h5>
-
-                    <p>
-
-                        Platform pendaftaran seminar yang memudahkan mahasiswa
-                        menemukan berbagai seminar Informatika di Kampus di Yogyakarta.
-
+                    <p class="mb-0 text-white-50">
+                        Platform pendaftaran seminar terpadu yang memudahkan mahasiswa menemukan berbagai event Informatika, workshop, dan pelatihan dari kampus-kampus di Yogyakarta.
                     </p>
 
                 </div>
 
-                <div class="col-md-6 text-md-end">
+                <!-- Kontak -->
+                <div class="col-lg-4 col-md-6 text-md-end">
 
-                    <p class="mb-1">
+                    <h5 class="mb-3">Hubungi Kami</h5>
 
-                        <i class="bi bi-envelope-fill"></i>
-
-                        admin@seminar.com
-
+                    <p class="mb-2 d-flex align-items-center justify-content-md-end">
+                        <span class="footer-icon"><i class="bi bi-envelope-fill"></i></span>
+                        <span class="text-white">admin@seminar.com</span>
                     </p>
 
-                    <p class="mb-1">
-
-                        <i class="bi bi-telephone-fill"></i>
-
-                        +62 812-3456-7890
-
+                    <p class="mb-0 d-flex align-items-center justify-content-md-end">
+                        <span class="footer-icon"><i class="bi bi-telephone-fill"></i></span>
+                        <span class="text-white">+62 812-3456-7890</span>
                     </p>
-
-                    <hr class="border-light">
-
-                    <small>
-
-                        © 2026 Irvan. All rights reserved.
-
-                    </small>
 
                 </div>
 
             </div>
 
+            <hr class="my-4">
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center small text-white-50">
+                <p class="mb-2 mb-sm-0">© 2026 Irvan. All rights reserved.</p>
+                <span>Dibuat untuk Komunitas IT Jogja</span>
+            </div>
+
         </div>
 
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
