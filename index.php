@@ -1303,7 +1303,7 @@ $totalPanitia = count($panitiaSet);
             </div>
 
             <div class="foot-bottom">
-                <span>© 2026 Tedzzzzzz. All rights reserved.</span>
+                <span>© 2026 Tedz. All rights reserved.</span>
             </div>
 
         </div>
