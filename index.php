@@ -1304,7 +1304,6 @@ $totalPanitia = count($panitiaSet);
 
             <div class="foot-bottom">
                 <span>© 2026 Irvan. All rights reserved.</span>
-                <span>Dibuat untuk Komunitas IT Jogja</span>
             </div>
 
         </div>
