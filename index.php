@@ -1288,7 +1288,7 @@ $totalPanitia = count($panitiaSet);
                 <div>
                     <a class="brand" href="#">Seminar<span class="brand-it">IT</span></a>
                     <p>
-                        Platform pendaftaran seminar terpadu yang memudahkan mahasiswa menemukan berbagai event Informatika, workshop, dan pelatihan dari kampus-kampus di Yogyakarta.
+                        Platform pendaftaran seminar yang memudahkan mahasiswa menemukan berbagai event Informatika, workshop, dan pelatihan dari kampus-kampus di Yogyakarta.
                     </p>
                 </div>
 
