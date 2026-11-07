@@ -1087,7 +1087,7 @@ $totalPanitia = count($panitiaSet);
                 <h1>Cari seminar informatika di Yogyakarta</h1>
 
                 <p class="hero-lead">
-                    Seminar, workshop, dan pelatihan dari panitia mahasiswa Informatika di berbagai kampus Yogyakarta, dikumpulkan di satu tempat.
+                    Seminar, workshop, dan pelatihan dari panitia mahasiswa Informatika di berbagai kampus Yogyakarta, dikumpulkan di satu platform.
                 </p>
 
                 <div class="hero-actions">
